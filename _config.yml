@@ -2,11 +2,12 @@
 title: Extended Accumulator
 email: ekremaksoy@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ekrem Aksoy's personel blog. AI will eat the World. Build with Jekyll and Github Pages.
+  Ekrem Aksoy's Blog
+  AI will eat the World.
+  Build with Jekyll and Github Pages.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://eax.github.io" # the base hostname & protocol for your site
 twitter_username: eaxitect
-linkedin_username: ekremaksoy
 github_username:  eax
 
 # Build settings
