@@ -1,14 +1,40 @@
-# Site settings
-title: Extended Accumulator
-email: ekremaksoy@gmail.com
-description: # this means to ignore newlines until "baseurl:"
-  Ekrem Aksoy's Blog
-  AI will eat the World.
-  Build with Jekyll and Github Pages.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://eax.github.io" # the base hostname & protocol for your site
-twitter_username: eaxitect
-github_username:  eax
+title: "Extended Accumulator"
+author: "Ekrem Aksoy"
+description: "AI will eat the World"
+lang: "en"
 
-# Build settings
-markdown: kramdown
+# Page settings
+permalink: /:title/ # see https://jekyllrb.com/docs/permalinks/
+date_format: "%B %d, %Y" # see http://shopify.github.io/liquid/filters/date/
+hide_title: false # remove site heading in the header
+post_footer: true # show previous and next links at the end of each post
+
+# Theme settings
+dark_theme: false # use the dark mode as default
+dark_header: false # keep the header dark
+# style: minimal             # use a simpler style inspired by the minima theme
+
+navigation: # (optional) site navigation in the header
+#  - index.html
+#  - README.md
+#  - title: "https://"       # linking external sites is also supported
+
+icons: # (optional) icons in the header, see http://fontawesome.com/icons
+  envelope: "mailto:ekremaksoy@gmail.com"
+  github: "https://github.com/eax"
+  rss: "/contrast/feed.xml"
+
+# Pagination
+show_excerpts: false # preview articles on the home page
+paginate: 8 # number of articles per page
+excerpt_separator: "\n\n\n" # indicate the end of the excerpt by two blank lines
+
+comments: # embed disqus or isso comments
+#  disqus: ""
+#  isso: ""
+mathjax: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-default-layout
