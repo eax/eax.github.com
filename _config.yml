@@ -1,7 +1,7 @@
 # Site settings
 title: Extended Accumulator
 email: ekremaksoy@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
+description: # this means to ignore newlines until "baseurl:"
   Ekrem Aksoy's Blog
   AI will eat the World.
   Build with Jekyll and Github Pages.
