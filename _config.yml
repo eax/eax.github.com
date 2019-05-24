@@ -1,8 +1,14 @@
 title: "Extended Accumulator"
 author: "Ekrem Aksoy"
 description: "AI will eat the World"
+languages: ["en", "tr"]
 lang: "en"
+exclude_from_localizations: ["assets", "images", "css"]
+global:
+  turksish: Türkçe
+  english: English
 
+include: ["_pages"]
 # Page settings
 permalink: /:title/ # see https://jekyllrb.com/docs/permalinks/
 date_format: "%B %d, %Y" # see http://shopify.github.io/liquid/filters/date/
@@ -10,19 +16,21 @@ hide_title: false # remove site heading in the header
 post_footer: true # show previous and next links at the end of each post
 
 # Theme settings
-dark_theme: false # use the dark mode as default
-dark_header: false # keep the header dark
+dark_theme: true # use the dark mode as default
+dark_header: true # keep the header dark
 # style: minimal             # use a simpler style inspired by the minima theme
 
 navigation: # (optional) site navigation in the header
-#  - index.html
-#  - README.md
+  - index.html
+  - about.md
+  - archive.md
 #  - title: "https://"       # linking external sites is also supported
 
 icons: # (optional) icons in the header, see http://fontawesome.com/icons
   envelope: "mailto:ekremaksoy@gmail.com"
+  linkedin: "https://www.linkedin.com/in/ekremaksoy"
   github: "https://github.com/eax"
-  rss: "/contrast/feed.xml"
+  rss: "feed.xml"
 
 # Pagination
 show_excerpts: false # preview articles on the home page
@@ -38,3 +46,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-default-layout
+  - jekyll-multiple-languages-plugin

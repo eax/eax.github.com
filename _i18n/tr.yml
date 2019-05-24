@@ -1,0 +1,8 @@
+title: "Extended Accumulator"
+global:
+  turksish: Türkçe
+  english: English
+navigation: # (optional) site navigation in the header
+  - index.html
+  - about.md
+  - archive.md
