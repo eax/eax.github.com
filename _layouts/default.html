@@ -36,13 +36,7 @@
 {{ content }}
 
 <footer class="{% if site.dark_footer %}dark{% endif %}">
-    {% if site.lang == "tr" %}
-      {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
-        <a href="{{ link1 }}" >{% t global.english %}</a>
-    {% else %}
-      {% capture link2 %}{{ site.baseurl_root }}/tr{{ page.url  }}{% endcapture %}
-        <a href="{{ link2 }}" >{% t global.turkish %}</a>
-    {% endif %}
+
 </footer>
 
 </html>

@@ -1,12 +1,8 @@
 title: "Ekrem Aksoy"
 author: "Ekrem Aksoy"
 description: "AI will eat the World"
-languages: ["en", "tr"]
+languages: ["en"]
 lang: "en"
-exclude_from_localizations: ["assets", "images", "css"]
-global:
-  turkish: Türkçe
-  english: English
 
 include: ["_pages"]
 # Page settings
@@ -40,4 +36,3 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-default-layout
-  - jekyll-multiple-languages-plugin
